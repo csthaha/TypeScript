@@ -40,3 +40,6 @@ console.log(x); // 'a'
 全局安装 typescript：`npm i typescript -g`， 使用帮助命令 `tsc -h`
 
 创建 ts 配置项： `tsc --init`
+
+
+### 2020/09/02 coolua-chensongtao update
