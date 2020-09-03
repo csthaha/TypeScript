@@ -43,3 +43,6 @@ console.log(x); // 'a'
 
 
 ### 2020/09/02 coolua-chensongtao update
+1. ts 中使用 jsx 必须做的两件事：
+  给文件一个 .tsx 的扩展名
+  启用 jsx 选项

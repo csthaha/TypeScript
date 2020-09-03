@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const webpack = require('webpack')
 module.exports = {
     entry: {
-        'app': './src/index.ts'
+        'app': './src/index.tsx'
     },
     output: {
         filename: '[name].[chunkhash:8].js'
