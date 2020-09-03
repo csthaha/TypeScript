@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
+const webpack = require('webpack')
 module.exports = {
     entry: {
         'app': './src/index.ts'
@@ -24,6 +24,11 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/tpl/index.html'
+        }),
+
+        // process.env.NODE_ENV 全局化
+        new webpack.DefinePlugin({
+            "process.env.NODE_ENV": (JSON.stringify(process.env.NODE_ENV + 'env'))
         })
     ],
     // optimization: {
