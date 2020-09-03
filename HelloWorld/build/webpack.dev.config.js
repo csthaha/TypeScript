@@ -4,6 +4,6 @@ module.exports = {
     // module: 定位到 ts 的源码，而不是打包后的代码
     // eval-source-map: 将 spurce-map 以 data url 的形式打包到文件中 
     devServer: {
-        port: 8080
+        port: 9001
     }
 }
