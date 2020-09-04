@@ -46,3 +46,11 @@ console.log(x); // 'a'
 1. ts 中使用 jsx 必须做的两件事：
   给文件一个 .tsx 的扩展名
   启用 jsx 选项
+
+2. 解析sass yarn add mini-css-extract-plugin css-loader sass-loader node-sass  -D
+ - mini-css-extract-plugin 将把编译的所有 scss 编译成 css 并将它们放在一个新文件中，而不是内联它们。需要区别 extract-text-webpack-plugin
+ - css-loader 将通过解析我们拥有的任何导入和URL来加载css
+ - sass-loader 加载我们的sass或者scss
+ - node-sass 将scss编译为 css
+
+3. redux 已经自带了声明文件（.d.ts文件）， 因此不需要安装 @types/redux

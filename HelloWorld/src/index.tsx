@@ -5,6 +5,8 @@ import * as React from 'react';
 import * as ReactDom from 'react-dom';
 import App from './components/App';
 
+import './styles/style.scss'
+
 const Root = document.querySelector('.app');
 
 ReactDom.render(<App name="fh"/>, Root)
